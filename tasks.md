@@ -1,0 +1,9 @@
+- [ ] Remake drawing code in my own image
+- [ ] Draw a square with minimal code
+- [ ] Set up on_draw event and schedule updates at framespeed 1/60.0 (and .run())
+- [ ] Create master object Organism
+  - [ ] static Counter()
+  - [ ] health
+  - [ ] velocity, dx & dy
+  - [ ] render(): pass (generate shape on frame)
+- [ ] Create class Producer(Organism)

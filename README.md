@@ -1,7 +1,7 @@
 # Undulation-Devastation
 An abstract life simulator written with pyglet. Cocos2d adds stuff that just doesn't matter to me. This idea is based on a background made by Jason Reinsvold from lostvectors.com, home of some of the most advanced flash games I've ever seen. Weirdly, I thought the background one of his coolest acheivements, even though it was only a background.
 
-After reading pyglet's docs and OpenGL's programming guide, I'm pretty convinced I can do it in a very light and adaptable way with pyglet. At this point, I don't think it's worth folding in a physics engine, even though that sounds really cool.
+After reading pyglet's docs and OpenGL's programming guide, I'm pretty convinced I can do it in a very light and adaptable way with pyglet. I've decided that because collisions are very important to the simulation, and it honestly seems like I'd just reimplement my own dumb version of what's already contained in the pymunk package, except that theirs would be in C. I'm okay letting the good pymunk folks help me out on this one.
 
 The simulation proceeds as follows:
 - Producers: passive organisms. They spontaneously grow in a simplistic way for now: a simple health counter. As time passes, their health goes up. When their health reaches a certain level, probably "100" or some maximum, they split in two, each organism steadily "growing." They will probably be depicted blue and will slowly wander the screen.

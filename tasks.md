@@ -1,4 +1,6 @@
-- [ ] Remake drawing code in my own image
+- [ ] Build a minimalistic environment to learn pyglet and pymunk's operation better: see other project
+
+- [ ] Build trimed drawing code directly into classes and avoid all the bullshiz from cocos2d's primitives.py I added
 - [ ] Draw a square with minimal code
 - [ ] Set up on_draw event and schedule updates at framespeed 1/60.0 (and .run())
 - [ ] Create master object Organism
